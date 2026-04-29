@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Topsis-Vaibhav-102316130"
+version = "1.0.0"
+authors = [
+  { name = "Vaibhav Gupta", email = "vgupta_be23@thapar.edu" }
+]
+description = "A Python package for TOPSIS multi-criteria decision making"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5"
+]
+keywords = ["topsis", "decision-making", "mcdm", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+
+[project.scripts]
+topsis = "topsis_vaibhav_102316130.topsis:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
