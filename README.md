@@ -114,6 +114,23 @@ This package checks for:
 - Impacts must be either `+` or `-`
 - Weights and impacts must be separated by commas
 
+## Project Structure
+
+```text
+Topsis-Vaibhav-102316130/
+│
+├── src/
+│   └── topsis_vaibhav_102316130/
+│       ├── __init__.py
+│       └── topsis.py
+│
+├── data.csv
+├── pyproject.toml
+├── README.md
+├── LICENSE
+└── output-result.csv
+```
+
 ## PyPI Package
 
 You can view and install the package from PyPI here:
