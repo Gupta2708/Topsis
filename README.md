@@ -1,4 +1,4 @@
-# Topsis-Vaibhav-102316130
+# Topsis
 
 A Python package for calculating TOPSIS score and ranking alternatives using the Technique for Order Preference by Similarity to Ideal Solution.
 
@@ -113,6 +113,12 @@ This package checks for:
 - Number of impacts must match the number of criteria columns
 - Impacts must be either `+` or `-`
 - Weights and impacts must be separated by commas
+
+## PyPI Package
+
+You can view and install the package from PyPI here:
+
+[https://pypi.org/project/Topsis-Vaibhav-102316130/](https://pypi.org/project/Topsis-Vaibhav-102316130/)
 
 ## Author
 
